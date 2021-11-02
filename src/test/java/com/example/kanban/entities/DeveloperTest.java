@@ -1,5 +1,6 @@
 package com.example.kanban.entities;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -57,5 +58,33 @@ class DeveloperTest {
 
     @Test
     void setDateDebutContrat() {
+    }
+
+    @AfterEach
+    void tearDown() {
+    }
+
+    @Test
+    void getTaches() {
+    }
+
+    @Test
+    void setTaches() {
+    }
+
+    @Test
+    void getID() {
+    }
+
+    @Test
+    void setID() {
+    }
+
+    @Test
+    void testGetComments() {
+    }
+
+    @Test
+    void testSetComments() {
     }
 }
